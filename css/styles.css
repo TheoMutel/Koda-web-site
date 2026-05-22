@@ -105,24 +105,24 @@
  * ------------------------------------------------------------------- */
 :root {
 
-    /* color-1(#d9083c)
-     * color-2(#eb5e55)
-     * color-3(#f2d0a4)
+    /* color-1(#33d4a2)
+     * color-2(#23c092)
+     * color-3(#b8f1df)
      */
-    --color-1: #d9083c;
-    --color-2: hsla(4, 79%, 63%, 1);
-    --color-3: hsla(34, 75%, 80%, 1);
+    --color-1: #33d4a2;
+    --color-2: #23c092;
+    --color-3: #b8f1df;
 
     /* theme color variations
      */
-    --color-1-lighter: hsla(345, 93%, 64%, 1);
-    --color-1-light  : hsla(345, 93%, 54%, 1);
-    --color-1-dark   : hsla(345, 93%, 34%, 1);
-    --color-1-darker : hsla(345, 93%, 24%, 1);
-    --color-2-lighter: hsla(4, 79%, 83%, 1);
-    --color-2-light  : hsla(4, 79%, 73%, 1);
-    --color-2-dark   : hsla(4, 79%, 53%, 1);
-    --color-2-darker : hsla(4, 79%, 43%, 1);
+    --color-1-lighter: #78e5c7;
+    --color-1-light  : #5ae2bc;
+    --color-1-dark   : #26af84;
+    --color-1-darker : #1c8a68;
+    --color-2-lighter: #61d9b9;
+    --color-2-light  : #45d1a8;
+    --color-2-dark   : #1b9f73;
+    --color-2-darker : #177d5f;
 
     /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
@@ -3138,8 +3138,10 @@ input::-moz-focus-inner {
 }
 
 .s-header__logo img {
-    width: 68px;
-    height: 35px;
+    width: auto;
+    max-width: 280px;
+    max-height: 95px;
+    display: block;
     margin-bottom: 0;
 }
 
@@ -3630,7 +3632,7 @@ input::-moz-focus-inner {
     gap: 10px; /* Espacement entre l'icône et le texte */
     text-decoration: none;
     padding: 12px 20px;
-    background-color: var(--color-1, #d9083c); /* Utilisation de votre couleur principale */
+    background-color: var(--color-1, #33d4a2); /* Utilisation de votre couleur principale */
     color: var(--color-white, #ffffff);
     border-radius: 8px;
     font-family: var(--font-1, "Nunito Sans", sans-serif);
@@ -3640,7 +3642,7 @@ input::-moz-focus-inner {
 }
 
 .s-hero__video-link:hover {
-    background-color: var(--color-2-dark, #b0062f); /* Couleur sur hover */
+    background-color: var(--color-2-dark, #1b9f73); /* Couleur sur hover */
     transform: scale(1.05); /* Effet de zoom */
 }
 
@@ -3650,7 +3652,7 @@ input::-moz-focus-inner {
 }
 
 .s-hero__video-link:hover svg {
-    fill: var(--color-3, #f2d0a4);
+    fill: var(--color-3, #b8f1df);
 }
 
 .s-hero__video-text {
@@ -4196,15 +4198,15 @@ html.no-csstransitions .s-hero__content {
 }
 
 .service-icon--product-design {
-    background-image: url(../images/icons/services/mail.png);
+    background-image: url(../images/icons/services/icon-product-design.svg);
 }
 
 .service-icon--branding {
-    background-image: url(../images/icons/services/fly.png);
+    background-image: url(../images/icons/services/icon-branding.svg);
 }
 
 .service-icon--frontend {
-    background-image: url(../images/icons/services/influ.png);
+    background-image: url(../images/icons/services/icon-frontend.svg);
 }
 
 .service-icon--research {
@@ -4776,7 +4778,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .footer{
-    color: #d9083c;
+    color: #33d4a2;
 }
 
 
